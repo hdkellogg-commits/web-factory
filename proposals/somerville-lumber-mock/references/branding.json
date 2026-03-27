@@ -1,0 +1,18 @@
+{
+  "brand_name": "Somerville Lumber Co.",
+  "industry": "AI Tool Hub",
+  "visual_style": "Minimalist, Vibrant, High-fidelity, Glassmorphism",
+  "colors": {
+    "neutral": ["#FFFFFF", "#F8F9FA", "#212529"],
+    "brand": ["#3B82F6", "#10B981"],
+    "accent": ["#F59E0B"]
+  },
+  "typography": {
+    "headings": "Inter, sans-serif",
+    "body": "Roboto, sans-serif"
+  },
+  "shapes": {
+    "border_radius": "12px",
+    "spacing": "8px"
+  }
+}
