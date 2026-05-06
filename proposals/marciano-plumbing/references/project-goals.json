@@ -1,0 +1,22 @@
+{
+  "project": "Marciano Plumbing",
+  "north_star_metric": "High-Intent Lead Conversion",
+  "primary_action": "Emergency Service Call / Schedule Appointment",
+  "user_personas": [
+    {
+      "name": "Emergency Homeowner",
+      "pain_point": "Burst pipe or heating failure in a NH winter/Woburn area.",
+      "goal": "Immediate relief and professional trust."
+    },
+    {
+      "name": "Eco-Conscious Upgrader",
+      "pain_point": "High energy bills from old HVAC systems.",
+      "goal": "Efficiency and long-term reliability (Mitsubishi Diamond Status)."
+    }
+  ],
+  "success_indicators": {
+    "conversion_rate": ">5% from High-Intent sessions",
+    "page_load_speed": "<1.5s (Lighthouse 90+)",
+    "trust_signal_recall": "High visibility of Mitsubishi Diamond Logo and Hibu reviews."
+  }
+}

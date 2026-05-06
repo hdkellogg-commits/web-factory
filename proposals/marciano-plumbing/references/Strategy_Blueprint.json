@@ -1,0 +1,34 @@
+{
+  "brand_strategy": {
+    "archetype": "Sage/Creator",
+    "voice_traits": ["Authoritative", "Innovative", "Responsive"],
+    "personality_focus": "The technical precision of a 'Mitsubishi Diamond Specialist' combined with 24/7 reliability."
+  },
+  "layout_rhythm_directives": {
+    "reading_pattern": "Z-Pattern with Industrial Slopes",
+    "attention_ratio": "1:1 for Lead Capture",
+    "grid_system": "12-column Desktop, 8px Hard Grid",
+    "visual_rhymes": {
+      "angles": "8-degree right-leaning slant (Logo Rhyme)",
+      "separators": "Horizontal 4px industrial bars"
+    }
+  },
+  "color_surface_directives": {
+    "distribution": "60% White (Modern), 30% Charcoal #1a1a1a (Industrial), 10% Tech Blue #0c82f8 (Action)",
+    "surface_treatments": {
+      "noise": "2% SVG filter on dark surfaces",
+      "texture": "Brushed silver grain on primary accents",
+      "depth": "Layered hard shadows for technical elevation"
+    },
+    "effects": "Glassmorphism (10px blur) for Floating Emergency Notifications"
+  },
+  "hero_section_primacy": {
+    "layout_type": "Half-Page Asymmetrical (Horizontal Balance)",
+    "headline_formula": "Benefit-Driven: Modern Efficiency meets 24/7 Reliability",
+    "cta_strategy": "High-contrast Blue with internal industrial bevel"
+  },
+  "downstream_skill_triggers": {
+    "typography": "Fjalla One (Headline) - 1.25 Modular Scale",
+    "micro_interactions": "Haptic pulse for active Emergency status"
+  }
+}

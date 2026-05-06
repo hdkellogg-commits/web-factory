@@ -1,0 +1,42 @@
+# Project Blueprint: The Howard Kellogg Web Factory
+
+The Howard Kellogg Web Factory is a fully automated, agentic pipeline built on Google Antigravity. Its core mission is to transform legacy websites (WordPress, PHP, Wix, etc.) into high-performance, modern Next.js 15+ / Tailwind CSS applications with zero manual intervention.
+
+## 1. The Agent Workforce
+The system utilizes a specialized workforce, routing tasks to different Gemini 3 model tiers based on the reasoning depth required.
+
+| Agent      | Model Tier | Responsibility                            | Primary Skill                  |
+|------------|------------|-------------------------------------------|--------------------------------|
+| @analyst   | Flash      | Technical audit and pricing.              | legacy-infrastructure-analyst  |
+| @architect | Pro        | Layout rhythm and 8px grid enforcement.   | layout-rhythm-specialist       |
+| @innovator | Ultra      | Creative divergence for "Bold" variants.  | innovation-divergence-engine   |
+| @coder     | Pro        | React Server Components and atomic logic. | nextjs-tailwind-expert         |
+| @delivery  | Flash      | Git automation and Vercel deployments.    | vercel-deploy-skill            |
+
+## 2. The Global Skills Library
+Intelligence is modularized into atomic .md files housed in the `antigravity-skills` repository.
+
+### Phase 0 & 1: Analysis and Strategy
+* **legacy-infrastructure-analyst.md**: Fingerprints legacy stacks and identifies DNS/MX risks to protect email services.
+* **goal-hierarchy-auditor.md**: Defines a "North Star Metric" and chunks content for logical flow.
+* **semantic-html-seo-specialist.md**: Architectures an SEO-optimized document tree with strict HTML5 landmarks.
+
+### Phase 2 & 3: Design and Implementation
+* **hero-design.md**: Directs Nano Banana 2 for high-impact custom visuals and motion intent.
+* **innovation-divergence-engine.md**: Employs heuristics to push designs toward the "Bold" end of the 1–10 Innovation Scale.
+* **layout-rhythm-specialist.md**: Enforces a mathematically perfect 12/8/4 column grid and 8pt spacing.
+* **atomic-component-architect.md**: Deconstructs UI into Atoms, Molecules, and Organisms using prop-driven Tailwind.
+
+### Phase 4 & 5: Aesthetics and Performance
+* **typography-architect.md**: Applies Major Third typographic scaling with REM-based legibility.
+* **color-surface-stylist.md**: Manages 60-30-10 distribution and premium surface effects like glassmorphism.
+* **motion-interaction-architect.md**: Creates goal-driven animations for immediate "haptic-style" feedback.
+* **asset-optimization-manager.md**: Ensures "lightspeed" load times via image priority and SVG sanitization.
+
+## 3. System Configuration
+The factory is governed by two foundational "Constitution" files.
+
+* **GEMINI.md (Global)**: Defines the Innovation Scale and the Risk-Adjusted Pricing Matrix (e.g., email conflict surcharges).
+* **AGENTS.md**: Sets the team roster, role definitions, and model routing.
+
+**Infrastructure**: Local project folders are symlinked to global skill directories and linked to the Vercel cloud.
