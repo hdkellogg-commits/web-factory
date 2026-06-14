@@ -96,7 +96,7 @@ The `local-orchestrator` MCP server is **globally registered** — no special fi
   "Arguments": {
     "file_path": "/absolute/path/to/new_file.py",
     "instruction": "Detailed description of what the file should do.",
-    "model": "hermes3:8b"
+    "model": "qwen2.5-coder:32b"
   }
 }
 ```
@@ -109,7 +109,7 @@ The `local-orchestrator` MCP server is **globally registered** — no special fi
   "Arguments": {
     "file_path": "/absolute/path/to/existing_file.py",
     "instruction": "Specific change instructions.",
-    "model": "hermes3:8b"
+    "model": "qwen2.5-coder:32b"
   }
 }
 ```
@@ -122,7 +122,7 @@ The `local-orchestrator` MCP server is **globally registered** — no special fi
   "Arguments": {
     "command": "npm test",
     "file_path": "/absolute/path/to/file_to_fix.ts",
-    "model": "hermes3:8b",
+    "model": "qwen2.5-coder:32b",
     "max_retries": 2
   }
 }
@@ -136,7 +136,7 @@ The `local-orchestrator` MCP server is **globally registered** — no special fi
   "Arguments": {
     "file_path": "/absolute/path/to/large_file.json",
     "instruction": "Summarize and identify key data structures.",
-    "model": "hermes3:8b"
+    "model": "qwen2.5-coder:32b"
   }
 }
 ```
@@ -149,7 +149,7 @@ Use this for complex, multi-file, multi-step goals. Hermes 70B will plan and exe
   "ToolName": "mcp_spawn_local_agent",
   "Arguments": {
     "goal": "Complete, self-contained description of what needs to be accomplished.",
-    "model": "hf.co/mradermacher/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-GGUF:Q4_K_M",
+    "model": "hermes3:70b",
     "turns": 15
   }
 }
@@ -167,9 +167,9 @@ Use this for complex, multi-file, multi-step goals. Hermes 70B will plan and exe
 ---
 
 ### 7. Local Defaults
-- **Local Manager (orchestration, multi-step)**: `hf.co/mradermacher/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-GGUF:Q4_K_M`
+- **Local Manager (orchestration, multi-step)**: `hermes3:70b`
 - **Local Workers (code generation, edits, analysis)**: `qwen2.5-coder:32b`
-- **Fallback (if qwen3.6/qwen2.5-coder:32b unavailable)**: `llama3.3:latest`
+- **Fallback (if qwen2.5-coder unavailable)**: `llama3.3:latest`
 - **Embeddings**: `nomic-embed-text:latest`
 
 ## 🤖 Hector: Sovereign Watcher Service (Node 3 - Option B)
