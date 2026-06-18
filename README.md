@@ -1,4 +1,6 @@
 # Web Factory
+Version: 1.2.0
+
 
 A system for programmatically generating web applications and assets.
 
@@ -21,3 +23,6 @@ To prevent overwrite conflicts in this multi-node cluster, all agents MUST adher
 ## Documentation
 - `AGENTS.md`: Detailed instructions for agent-driven development.
 - `GEMINI.md`: Specific guidelines for Google Gemini models.
+
+## 📈 Project Evolution Timeline
+- **2026-06-18**: Integrated `taste-skill` dynamic dials and anti-slop guidelines into the global constitution. The core agent profiles (@architect, @innovator, @coder, and @auditor) have been updated to enforce micro-aesthetic check constraints (Doppelrand nested containers, Button-in-Button, Eyebrow limits, and Em-dash bans). Global output completeness rules were introduced to prevent code truncation.

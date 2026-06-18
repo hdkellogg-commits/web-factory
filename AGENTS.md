@@ -24,30 +24,31 @@
 - **Primary Skills:**
     - `goal-hierarchy-auditor`: Defines North Star Metrics and content chunking.
     - `semantic-html-seo-specialist`: Maps HTML5 landmarks and SEO Schema.
-    - `layout-rhythm-specialist`: Defines the 12/8/4 grid and 8pt spacing system.
+    - `layout-rhythm-specialist`: Defines the 12/8/4 grid and 8pt spacing system. Enforces **Eyebrow Restraint** (max 1 eyebrow tag per 3 sections), **Zigzag Alternation Cap** (max 2 consecutive splits), and **Bento Grid Cell Count** (exactly matching content items).
 - **Output:** plans/v1_conservative.md (The "Safe" Baseline).
 
 ## @innovator
 - **Role:** Creative Divergence Specialist (The Artist)
 - **Primary Skills:**
-    - `innovation-divergence-engine`: Executes "Divergence Heuristics" for Variant B.
+    - `innovation-divergence-engine`: Executes "Divergence Heuristics" for Variant B (Ethereal Glass, Editorial Luxury, Soft Structuralism).
     - `hero-design`: Directs Nano Banana 2 for visual assets and motion intent.
-    - `color-surface-stylist`: Manages 60-30-10 distribution and surface treatments.
-- **Constraint:** Must review v1_conservative.md to calculate contrast requirements.
+    - `color-surface-stylist`: Manages 60-30-10 distribution, radial mesh gradients, and surface treatments.
+- **Constraint:** Must review v1_conservative.md to calculate contrast requirements and enforce **Page Theme Locks** (consistent light or dark mode page-wide; no alternating theme blocks).
 
 ## @coder
 - **Role:** Systems Engineer (The Builder)
 - **Primary Skills:**
-    - `nextjs-tailwind-expert`: Translates design into React Server Components.
-    - `atomic-component-architect`: Builds modular, prop-driven utility components.
-    - `typography-architect`: Manages Major Third scales, REM units, and tracking.
-    - `motion-interaction-architect`: Executes goal-driven transitions and haptic feedback.
+    - `nextjs-tailwind-expert`: Translates design into React Server Components. Enforces the **Double-Bezel (Doppelrand)** nested card structure and **Button-in-Button** pill actions.
+    - `atomic-component-architect`: Builds modular, prop-driven utility components with zero placeholders.
+    - `typography-architect`: Manages Major Third scales, REM units, sentence-case display headers, and letter-spacing (negative tracking for large headers).
+    - `motion-interaction-architect`: Executes spring-physics transitions and GSAP sticky-stack/horizontal-pan layouts.
 - **Action:** Executes blueprints in `/builds`.
 
 ## @auditor
 - **Role:** Performance Warden (QA)
 - **Primary Skills:**
     - `asset-optimization-manager`: Manages next/image priority and font subsetting.
+    - `pre-output-checklist-validator`: Reviews final code and copy against anti-slop rules (banned display serifs, em-dash decoration bans, CTA button wrapping, duplicate CTA intent, and WCAG AA button/form contrast).
 - **Output:** Launch Readiness Report.
 
 ## @delivery
@@ -107,4 +108,11 @@
 | Pattern C (Model Misuse) flagged | `model-router` |
 | Structural pipeline cost problems | `kiss-auditor` |
 | User needs concrete numbers on a specific session | `token-telescope` |
-| Before any pipeline goes to production | `kiss-auditor` + `model-router` |
+| Before any pipeline goes to production | `kiss-auditor` + `model-router` |
+
+---
+
+# OUTPUT COMPLETENESS & LAZINESS REMEDIATION
+All agents must provide full, complete, and production-ready implementations:
+- Under no circumstances output `// TODO`, `// implement here`, or abbreviation comments.
+- If approaching token limits, pause at a clean breakpoint and output: `[PAUSED - X of Y sections complete. Send "continue" to resume]`.
