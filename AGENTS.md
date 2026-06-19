@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Design craft is superseded by the global `web-design` skill** (`~/.claude/skills/web-design/`).
+> That skill is the single source of taste for layout, typography, color/surface, motion, and
+> anti-slop rules — and it is learned **only from `nlca-projects/`**, not from this repo. The roster
+> below is web-factory's deep multi-agent *implementation*; where it restates dials or anti-slop
+> rules, the global skill wins. Update the skill, not duplicated prose here.
+
 # AGENT ROSTER & SKILL MAPPING
 
 ## @analyst
